@@ -58,4 +58,13 @@ const welcm2 = document.querySelector(".welcome")
             travel.style.background = 'none'; 
         });
 
+const funpic = document.querySelector('.text-content');
+
+funpic.addEventListener('click', (event) => {
+  event.target.style.background = 'purple';    
+});
+
+funpic.addEventListener('mouseover', (event) => {
+    event.target.style.background = '';    
+  });
 
